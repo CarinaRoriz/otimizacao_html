@@ -217,6 +217,27 @@ img{
 }
 .td-pb-row>.td-element-style{
 }
+
+/* CSS */
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -.1em !important;
+            background: none !important;
+            padding: 0 !important
+        }
+
 @media(max-width:767px){
     .td-pb-row>.td-element-style{
         width:100vw!important;
@@ -33459,4 +33480,99 @@ body.td-animation-stack-type2 .td-animation-stack .entry-thumb,body.td-animation
 }
 .td-md-is-chrome .td_block_inner_overflow .td_module_wrap,.td-md-is-chrome .td_block_inner_overflow .item-details{
     position:relative
+}
+
+.block-title>span,
+.block-title>span>a,
+.block-title>a,
+.block-title>label,
+.widgettitle,
+.widgettitle:after,
+.td-trending-now-title,
+.td-trending-now-wrapper:hover .td-trending-now-title,
+.wpb_tabs li.ui-tabs-active a,
+.wpb_tabs li:hover a,
+.vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab.vc_active>a,
+.vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab:hover>a,
+.td_block_template_1 .td-related-title .td-cur-simple-item,
+.woocommerce .product .products h2:not(.woocommerce-loop-product__title),
+.td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more,
+.td-weather-information:before,
+.td-weather-week:before,
+.td_block_exchange .td-exchange-header:before,
+.td-theme-wrap .td_block_template_3 .td-block-title>*,
+.td-theme-wrap .td_block_template_4 .td-block-title>*,
+.td-theme-wrap .td_block_template_7 .td-block-title>*,
+.td-theme-wrap .td_block_template_9 .td-block-title:after,
+.td-theme-wrap .td_block_template_10 .td-block-title::before,
+.td-theme-wrap .td_block_template_11 .td-block-title::before,
+.td-theme-wrap .td_block_template_11 .td-block-title::after,
+.td-theme-wrap .td_block_template_14 .td-block-title,
+.td-theme-wrap .td_block_template_15 .td-block-title:before,
+.td-theme-wrap .td_block_template_17 .td-block-title:before {
+    background-color: #222
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background-color: #222 !important
+}
+
+.block-title,
+.td_block_template_1 .td-related-title,
+.wpb_tabs .wpb_tabs_nav,
+.vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container,
+.woocommerce div.product .woocommerce-tabs ul.tabs:before,
+.td-theme-wrap .td_block_template_5 .td-block-title>*,
+.td-theme-wrap .td_block_template_17 .td-block-title,
+.td-theme-wrap .td_block_template_17 .td-block-title::before {
+    border-color: #222
+}
+
+.td-theme-wrap .td_block_template_4 .td-block-title>*:before,
+.td-theme-wrap .td_block_template_17 .td-block-title::after {
+    border-color: #222 transparent transparent transparent
+}
+
+.td-menu-background:before,
+.td-search-background:before {
+    background: rgba(0, 0, 0, .5);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .6) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, .5)), color-stop(100%, rgba(0, 0, 0, .6)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .6) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, @mobileu_gradient_two_mob 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .6) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,0,0,0.5)', endColorstr='rgba(0,0,0,0.6)', GradientType=0)
+}
+
+.td-footer-wrapper,
+.td-footer-wrapper .td_block_template_7 .td-block-title>*,
+.td-footer-wrapper .td_block_template_17 .td-block-title,
+.td-footer-wrapper .td-block-title-wrap .td-wrapper-pulldown-filter {
+    background-color: #111
+}
+
+.td-footer-wrapper::before {
+    background-image: url(../imgs/footer-bg2.jpg)
+}
+
+.td-footer-wrapper::before {
+    background-size: cover
+}
+
+.td-footer-wrapper::before {
+    background-position: center center
+}
+
+.td-footer-wrapper::before {
+    opacity: .1
+}
+
+.td-menu-background,
+.td-search-background {
+    background-image: url(../imgs/mobile-bg.jpg)
+}
+
+.white-popup-block:before {
+    background-image: url(../imgs/login-mod.jpg)
 }
